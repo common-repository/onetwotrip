@@ -1,0 +1,462 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress OneTwoTrip Plugin v1.0.0\n"
+"Report-Msgid-Bugs-To: Alexey Ignatov <alexeympw@gmail.com >\n"
+"POT-Creation-Date: 2016-12-12 08:34+0000\n"
+"PO-Revision-Date: 2016-12-12 08:34+0000\n"
+"Last-Translator: Sergey Aksenov <sergeax@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru-RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:"
+"1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-SearchPath-0: ."
+
+# Filter types
+msgid "week"
+msgstr "неделя"
+
+msgid "month"
+msgstr "месяц"
+
+msgid "year"
+msgstr "год"
+
+#: admin/class-wp-ott-admin.php:115 admin/class-wp-ott-admin.php:116
+msgid "OneTwoTrip"
+msgstr "OneTwoTrip"
+
+#: admin/class-wp-ott-admin.php:126 admin/class-wp-ott-admin.php:127
+#: admin/class-wp-ott-list-table.php:70 admin/partials/wp-ott-list.php:18
+msgid "Forms"
+msgstr "Формы"
+
+#: admin/class-wp-ott-admin.php:135 admin/class-wp-ott-admin.php:136
+#: admin/class-wp-ott-list-table.php:74 admin/partials/wp-ott-list.php:24
+msgid "Tables"
+msgstr "Таблицы"
+
+#: admin/class-wp-ott-admin.php:144 admin/class-wp-ott-admin.php:145
+#: admin/class-wp-ott-list-table.php:78 admin/partials/wp-ott-list.php:30
+msgid "Banners"
+msgstr "Баннеры"
+
+#: admin/class-wp-ott-admin.php:153 admin/class-wp-ott-admin.php:154
+#: admin/class-wp-ott-list-table.php:82 admin/partials/wp-ott-list.php:36
+msgid "Links"
+msgstr "Ссылки"
+
+#: admin/class-wp-ott-admin.php:196
+msgid "Username or password should not be blank."
+msgstr "Логин или пароль должны быть пустыми."
+
+#: admin/class-wp-ott-admin.php:207
+msgid ""
+"You are now connected to OTT Partner API. Your may now edit your forms and "
+"tables."
+msgstr ""
+"Вы залогинились в партнерку OneTwoTrip. Теперь можно приступать к "
+"редактированию промо-материалов"
+
+#: admin/class-wp-ott-admin.php:218
+msgid ""
+"You have been disconnected from OTT Partner API. Your shortcodes will "
+"continue to work."
+msgstr ""
+"Вы разлогинились из партнерки OneTwoTrip. Но все вставленные вами шорткоды, "
+"продолжат работать."
+
+#: admin/class-wp-ott-admin.php:249
+#, php-format
+msgid "Instrument with id=%s is not found."
+msgstr "Инструмент с номером id=%s не найден."
+
+#: admin/class-wp-ott-dashboard-widget.php:41
+msgid "All categories"
+msgstr "Все категории"
+
+#: admin/class-wp-ott-dashboard-widget.php:42
+msgid "Plane tickets"
+msgstr "Авиабилеты"
+
+#: admin/class-wp-ott-dashboard-widget.php:43
+msgid "Hotels"
+msgstr "Отели"
+
+#: admin/class-wp-ott-dashboard-widget.php:44
+msgid "Rail tickets"
+msgstr "Ж/Д билеты"
+
+#: admin/class-wp-ott-dashboard-widget.php:47
+#: admin/partials/wp-ott-stats.php:79
+msgid "Week"
+msgstr "Неделя"
+
+#: admin/class-wp-ott-dashboard-widget.php:48
+#: admin/partials/wp-ott-stats.php:80
+msgid "Month"
+msgstr "Месяц"
+
+#: admin/class-wp-ott-dashboard-widget.php:49
+#: admin/partials/wp-ott-stats.php:81
+msgid "Year"
+msgstr "Год"
+
+#: admin/class-wp-ott-dashboard-widget.php:52
+#: admin/partials/wp-ott-stats.php:84
+msgid "All instruments"
+msgstr "Все инструменты"
+
+#: admin/class-wp-ott-dashboard-widget.php:68
+msgid "OneTwoTrip Partner Dashboard Widget"
+msgstr "OneTwoTrip партнерский Dashboard"
+
+#: admin/class-wp-ott-list-table.php:69
+msgid "Form"
+msgstr "Форма"
+
+#: admin/class-wp-ott-list-table.php:73
+msgid "Table"
+msgstr "Таблица"
+
+#: admin/class-wp-ott-list-table.php:77
+msgid "Banner"
+msgstr "Баннер"
+
+#: admin/class-wp-ott-list-table.php:81
+msgid "Link"
+msgstr "Ссылка"
+
+#: admin/class-wp-ott-list-table.php:102
+msgid "No forms are created within your partner API."
+msgstr "Нет форм созданных в личном кабинете"
+
+#: admin/class-wp-ott-list-table.php:105
+msgid "No tables are created within your partner API."
+msgstr "Нет таблиц созданных в личном кабинете"
+
+#: admin/class-wp-ott-list-table.php:108
+msgid "No banners are created within your partner API."
+msgstr "Нет баннеров созданных в личном кабинете"
+
+#: admin/class-wp-ott-list-table.php:111
+msgid "No links are created within your partner API."
+msgstr "Нет ссылок созданных в личном кабинете"
+
+#: admin/class-wp-ott-list-table.php:146
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-wp-ott-list-table.php:147
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/class-wp-ott-list-table.php:148
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: admin/class-wp-ott-list-table.php:149
+msgid "Active?"
+msgstr "Активировать?"
+
+#: admin/class-wp-ott-list-table.php:198
+msgid "Activate"
+msgstr "Активировать"
+
+#: admin/class-wp-ott-list-table.php:199
+msgid "Deactivate"
+msgstr "Выключить"
+
+#: admin/class-wp-ott-list-table.php:213
+msgid "Yes"
+msgstr "Да"
+
+#: admin/class-wp-ott-list-table.php:213
+msgid "No"
+msgstr "Нет"
+
+#: admin/partials/wp-ott-dashboard-widget-config.php:35
+#: admin/partials/wp-ott-dashboard-widget.php:23
+msgid "Period"
+msgstr "Период"
+
+#: admin/partials/wp-ott-dashboard-widget.php:26
+#: admin/partials/wp-ott-stats.php:148
+msgid "Income for period"
+msgstr "Доход за период"
+
+#: admin/partials/wp-ott-dashboard-widget.php:29
+#: admin/partials/wp-ott-stats.php:180
+msgid "Total income"
+msgstr "Общий доход"
+
+#: admin/partials/wp-ott-dashboard-widget.php:33
+msgid "Detailed stats"
+msgstr "Детальный статус"
+
+#: admin/partials/wp-ott-dashboard-widget.php:36
+msgid "You are not logged into OTT API!"
+msgstr "Вы не залогинены в партнерку OTT"
+
+#: admin/partials/wp-ott-dashboard-widget.php:36
+msgid "Please login"
+msgstr "Пожалуйста залогиньтесь"
+
+#: admin/partials/wp-ott-edit.php:18
+#, php-format
+msgid "Edit form \"%s\""
+msgstr "Редактировать \"%s\""
+
+#: admin/partials/wp-ott-edit.php:19
+msgid "Edit form layout"
+msgstr "Редактировать слой"
+
+#: admin/partials/wp-ott-edit.php:23
+#, php-format
+msgid "Edit table \"%s\""
+msgstr "Редактировать таблицу \"%s\""
+
+#: admin/partials/wp-ott-edit.php:24
+msgid "Edit table layout"
+msgstr "Редактировать слой таблицы"
+
+#: admin/partials/wp-ott-edit.php:28
+#, php-format
+msgid "Edit banner \"%s\""
+msgstr "Редактировать баннер \"%s\""
+
+#: admin/partials/wp-ott-edit.php:29
+msgid "Edit banner layout"
+msgstr "Редактировать вид баннера"
+
+#: admin/partials/wp-ott-edit.php:33
+#, php-format
+msgid "Edit link \"%s\""
+msgstr "Редактировать ссылку \"%s\""
+
+#: admin/partials/wp-ott-edit.php:34
+msgid "Edit link layout"
+msgstr "Редактировать вид ссылки"
+
+#: admin/partials/wp-ott-edit.php:56
+msgid "Shortcode to insert"
+msgstr "Шорткод для вставки"
+
+#: admin/partials/wp-ott-edit.php:57
+msgid "Copy to clipboard"
+msgstr "Скопировать"
+
+#: admin/partials/wp-ott-edit.php:60
+msgid "Auto-insert"
+msgstr "Автоматическая вставка блока в контент"
+
+#: admin/partials/wp-ott-edit.php:61
+msgid ""
+"Here, you can automatically add your forms and tables to any posts, using "
+"categories or tags. Table or form will be added to all posts of the selected "
+"category."
+msgstr ""
+"Выбрав категории и теги, вы можете автоматически добавить виджет ко всем "
+"постам содержащим выбранные теги и категории"
+
+#: admin/partials/wp-ott-edit.php:64
+msgid "Location"
+msgstr "Место"
+
+#: admin/partials/wp-ott-edit.php:66
+msgid "Disabled (do not use auto-insert)"
+msgstr "Не вставлять автоматически"
+
+#: admin/partials/wp-ott-edit.php:67
+msgid "Top"
+msgstr "Вставить вверху статьи"
+
+#: admin/partials/wp-ott-edit.php:68
+msgid "Bottom"
+msgstr "Вставить после текста статьи"
+
+#: admin/partials/wp-ott-edit.php:69
+msgid "Both"
+msgstr "Вставить и в начало и в конец статьи"
+
+#: admin/partials/wp-ott-edit.php:73
+msgid "Categories"
+msgstr "Категории"
+
+#: admin/partials/wp-ott-edit.php:81
+msgid "Tags"
+msgstr "Теги"
+
+#: admin/partials/wp-ott-edit.php:90 admin/partials/wp-ott-stats.php:89
+msgid "Update"
+msgstr "Обновить"
+
+#: admin/partials/wp-ott-list.php:19
+msgid "Add new form"
+msgstr "Добавить новую форму"
+
+#: admin/partials/wp-ott-list.php:25
+msgid "Add new table"
+msgstr "Добавить новую таблицу"
+
+#: admin/partials/wp-ott-list.php:31
+msgid "Add new banner"
+msgstr "Добавить новый баннер"
+
+#: admin/partials/wp-ott-list.php:37
+msgid "Add new link"
+msgstr "Добавить новую ссылку"
+
+#: admin/partials/wp-ott-login.php:19
+msgid "Login"
+msgstr "Залогинеться"
+
+#: admin/partials/wp-ott-login.php:24
+msgid "Username"
+msgstr "Логин"
+
+#: admin/partials/wp-ott-login.php:28
+msgid "Password"
+msgstr "Пароль"
+
+#: admin/partials/wp-ott-login.php:32
+msgid "Connect to OTT API"
+msgstr "Соединиться с личным кабинетом OneTwoTrip"
+
+#: admin/partials/wp-ott-stats.php:71
+msgid "Stats"
+msgstr "Статистика"
+
+#: admin/partials/wp-ott-stats.php:76
+msgid "Show data for:"
+msgstr "За время:"
+
+#: admin/partials/wp-ott-stats.php:96 admin/partials/wp-ott-stats.php:121
+msgid "Visitors"
+msgstr "Посетители"
+
+#: admin/partials/wp-ott-stats.php:122 admin/partials/wp-ott-stats.php:139
+msgid "Clicks"
+msgstr "Клики"
+
+#: admin/partials/wp-ott-stats.php:123 admin/partials/wp-ott-stats.php:135
+msgid "Searches"
+msgstr "Поиски"
+
+#: admin/partials/wp-ott-stats.php:131
+msgid "Impressions"
+msgstr "Действия"
+
+#: admin/partials/wp-ott-stats.php:145 admin/partials/wp-ott-stats.php:171
+#: admin/partials/wp-ott-stats.php:205
+msgid "Income"
+msgstr "Прибыль"
+
+#: admin/partials/wp-ott-stats.php:184
+msgid "Purchases"
+msgstr "Покупки"
+
+#: admin/partials/wp-ott-stats.php:188
+msgid "Paid"
+msgstr "Оплачено"
+
+#: admin/partials/wp-ott-stats.php:192
+msgid "Refunds"
+msgstr "Возвратов"
+
+#: admin/partials/wp-ott-stats.php:197
+msgid "Orders history"
+msgstr "История заказов"
+
+#: admin/partials/wp-ott-stats.php:199
+msgid "No orders are recorded for selected period"
+msgstr "Нет заказов, за выбранный период"
+
+#: admin/partials/wp-ott-stats.php:202
+msgid "Date/time"
+msgstr "Дата/Время"
+
+#: admin/partials/wp-ott-stats.php:203
+msgid "Type"
+msgstr "Тип"
+
+#: admin/partials/wp-ott-stats.php:204
+msgid "Status"
+msgstr "Статус"
+
+#: admin/partials/wp-ott-stats.php:222
+msgid "Logged in as:"
+msgstr "Вы вошли как: "
+
+#: admin/partials/wp-ott-stats.php:226
+msgid "Disconnect from OTT API"
+msgstr "Отключиться от партнерки OTT"
+
+#: includes/class-wp-ott-api.php:91
+msgid ""
+"Unable to make secure request without API token. Please connect to API first."
+msgstr "Невозможно создать запрос к API. Сначала соединитесь с API"
+
+#: includes/class-wp-ott-api.php:129
+msgid "Empty or invalid API response. Please try again in a few minutes."
+msgstr ""
+"Пустой или неправильный запрос к API. Попробуйте через несколько минут."
+
+#: includes/class-wp-ott-api.php:134
+#, php-format
+msgid "API returned \"%s\""
+msgstr "API возвращено \"%s\""
+
+#: includes/class-wp-ott-api.php:216
+#, php-format
+msgid "Unknown error. Raw server response: %s"
+msgstr "Неизвестная ошибка"
+
+#: includes/class-wp-ott-api.php:231
+msgid "No OTT username was set"
+msgstr "Не введено имя пользователя партнерской программы OneTwoTrip"
+
+#: includes/class-wp-ott-api.php:236
+msgid "No OTT token was set"
+msgstr "Не добавлено токен OTT"
+
+#: includes/class-wp-ott-api.php:383
+#, php-format
+msgid "Server error: %s."
+msgstr "Ошибка сервера %s."
+
+#: includes/class-wp-ott-api.php:394
+#, php-format
+msgid "Login error: %s."
+msgstr "Ошибка входа %s."
+
+#: includes/class-wp-ott-api.php:405
+#, php-format
+msgid "Logout error: %s."
+msgstr "Ошибка выхода %s."
+
+#: public/class-wp-ott-public.php:121
+msgid "Shortcode \"wp-ott-module\" error: attribute \"id\" must be specified."
+msgstr ""
+"Шорткоды \"wp-ott-module\" ошибка: attribute \"id\" должна быть устранена"
+
+# Plugin description
+msgid ""
+"Easily add airline tickets, train tickets and hotel booking forms and "
+"listings to your site. Register at <a href=\"https://partner.onetwotrip."
+"com/\">partner.onetwotrip.com</a> and earn a comission with each successful "
+"transaction."
+msgstr ""
+"Добавляйте автоматически к постам на сайте поисковые формы авиа и "
+"железнодорожных билетов. Зарегистрируйтесь на <a href=\"https://partner."
+"onetwotrip.com/\">partner.onetwotrip.com</a>, получайте комиссию с каждой "
+"успешной продажи."
